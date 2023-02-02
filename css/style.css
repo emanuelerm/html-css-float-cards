@@ -24,21 +24,21 @@ h1 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .card {
     float: left;
-    margin-right: 1.5rem;
-    width: calc(100% / 3) - 4.5rem;
+    width: calc(100% / 3 - 1.5rem);
     text-align: left;
     background-color: var(--bgcards);
     margin-top: 4rem;
+    margin-right: 1.5rem;
+    box-shadow: -1rem 0.5rem 1rem var(--bgcards);
 }
 
 .align {
-    margin-top: 1rem;
-    padding-left: 9rem;
+    padding-left: 8rem;
 }
 
 img {
@@ -54,4 +54,9 @@ img {
 .mail {
     margin-top: 0.5rem;
     color: var(--mail);
+}
+
+.emplooyes {
+    height: 60rem;
+    padding-left: 2rem;
 }
