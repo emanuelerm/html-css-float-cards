@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 :root {
@@ -9,4 +10,41 @@
     --bgcards: #0f0e17;
     --text: #fffffe;
     --mail: #039bdc;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: 2.2rem auto;
+}
+
+h1 {
+    color: var(--title);
+}
+
+.card {
+    float: left;
+    width: calc(100% / 3);
+    text-align: left;
+    background-color: var(--bgcards);
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.align {
+    vertical-align: middle;
+    padding-left: 6rem;
+}
+
+img {
+    float: left;
+    max-width: 30%;
+}
+
+.text {
+    color: var(--text);
+}
+
+.mail {
+    color: var(--mail);
 }
